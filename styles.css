@@ -1,16 +1,10 @@
-/* General body styling */
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
 
-/* Heading */
 .heading {
     font-size: 24px;
     margin-bottom: 20px;
+	text-align:center
 }
 
-/* All tables centered with border */
 table.middle {
     margin: auto;
     border: 1px solid black;
@@ -18,13 +12,12 @@ table.middle {
     border-collapse: collapse;
 }
 
-/* Table cells */
 table td {
     border: 1px solid black;
     padding: 1px;
 }
 
-/* Alignment classes */
+
 .center {
     text-align: center;
 }
@@ -33,7 +26,7 @@ table td {
     text-align: right;
 }
 
-/* Colored rows for table-3 */
+
 .green {
     background-color: green;
     height: 20px;
@@ -44,7 +37,6 @@ table td {
     height: 20px;
 }
 
-/* Image cell center align */
 #t-image {
     text-align: center;
     padding: 10px;
