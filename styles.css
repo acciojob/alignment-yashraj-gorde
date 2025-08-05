@@ -1,1 +1,50 @@
-/*  your css code here. If applicable */
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Center tables */
+.middle {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+/* Table 1 Text Alignment */
+.left {
+    text-align: left;
+    
+}
+
+.center {
+    text-align: center;
+    padding: 8px 20px;
+}
+
+.right {
+    text-align: right;
+    
+}
+
+/* Table 3 Colored Rows */
+.green-row {
+    background-color: green;
+    height: 20px;
+}
+
+.blue-row {
+    background-color: blue;
+    height: 20px;
+}
+
+/* Center image in table 3 */
+.image-cell {
+    text-align: center;
+    padding: 15px;
+}
