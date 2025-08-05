@@ -1,50 +1,51 @@
-/* General Styling */
+/* General body styling */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    text-align: center;
 }
 
+/* Heading */
 .heading {
-    text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     margin-bottom: 20px;
 }
 
-/* Center tables */
-.middle {
+/* All tables centered with border */
+table.middle {
     margin: auto;
+    border: 1px solid black;
+    border-spacing: 1px;
     border-collapse: collapse;
 }
 
-/* Table 1 Text Alignment */
-.left {
-    text-align: left;
-    
+/* Table cells */
+table td {
+    border: 1px solid black;
+    padding: 1px;
 }
 
+/* Alignment classes */
 .center {
     text-align: center;
-    padding: 8px 20px;
 }
 
 .right {
     text-align: right;
-    
 }
 
-/* Table 3 Colored Rows */
-.green-row {
+/* Colored rows for table-3 */
+.green {
     background-color: green;
     height: 20px;
 }
 
-.blue-row {
+.blue {
     background-color: blue;
     height: 20px;
 }
 
-/* Center image in table 3 */
-.image-cell {
+/* Image cell center align */
+#t-image {
     text-align: center;
-    padding: 15px;
+    padding: 10px;
 }
